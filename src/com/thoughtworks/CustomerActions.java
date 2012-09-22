@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class CustomerActions {
     private Scanner scan = new Scanner(System.in);
     private BookManager bookManager = new BookManager();
-    Messages messages = new Messages();
+    private Messages messages = new Messages();
 
     public boolean exitTheSystem() {
         messages.showMessageBeforeClientExit();
@@ -25,31 +25,26 @@ public class CustomerActions {
     }
 
     public void viewAllTheBooks() {
-        Map<Book, Integer> bookAndItsNumbers = bookManager.getAllBooks();
+        Map<Book, Integer> bookAndItsNumbers = bookManager.getAllBooksMapper();
         String lastBookName = "";
 
         messages.showDots();
         for (Map.Entry<Book, Integer> entry : bookAndItsNumbers.entrySet()) {
             if (!lastBookName.equals(entry.getKey().getBookName())) {
-                messages.showBookName(entry);
+                System.out.println("  " + entry.getKey().getBookName());
             }
             lastBookName = entry.getKey().getBookName();
         }
         messages.showDots();
     }
 
-    public void login() {
-        CustomerManager customerManager = new CustomerManager();
-        messages.showLoginMessage("username");
-        String username = getClientChosenOption();
-        messages.showLoginMessage("password");
-        String password = getClientChosenOption();
-        messages.messageWhenLogin(customerManager, username, password);
-    }
-
     public void reserveBook() {
         messages.headerMessageWhenReserveABook();
-        messages.messageWhenReserveABook(bookManager.reserveBook(new Book(getClientChosenOption())));
+        if (bookManager.reserveBook(new Book(getClientChosenOption()))) {
+            messages.showSuccessfullyReserveABookMessage();
+        } else {
+            messages.showUnsuccessfullyReserveABookMessage();
+        }
     }
 
     public String getClientChosenOption() {
@@ -58,8 +53,8 @@ public class CustomerActions {
 
     public void viewMovieList() {
         ArrayList<Movie> movieArrayList = new MovieManager().getMovieList();
-        for (int i = 0; i < movieArrayList.size(); i++) {
-            System.out.println(movieArrayList.get(i));
+        for (Movie aMovieArrayList : movieArrayList) {
+            System.out.println(aMovieArrayList);
         }
     }
 }

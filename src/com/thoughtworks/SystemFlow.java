@@ -1,14 +1,33 @@
 package com.thoughtworks;
 
-public class LibraryController {
-    Messages messages = new Messages();
-    CustomerActions customerActions = new CustomerActions();
+public class SystemFlow {
 
-    public static void main(String[] args) {
-        new LibraryController().flowOfTheSystem();
+    private Messages messages = new Messages();
+    private CustomerActions customerActions = new CustomerActions();
+    private CustomerManager customerManager = new CustomerManager();
+
+    protected void flowOfTheSystem() {               // 自动化脚本
+        boolean successfullyLogIn = loginInToTheSystem();
+        if (successfullyLogIn) {
+            flowOfTheSystemWithLogin();
+        } else {
+            flowOfTheSystemWithoutLogin();
+        }
     }
 
-    private void flowOfTheSystem() {
+    private boolean loginInToTheSystem() {
+        messages.showNotifyToInputUssnameMessage();
+        String username = customerActions.getClientChosenOption();
+        messages.showNotifyInputPswdMessage();
+        String password = customerActions.getClientChosenOption();
+        return customerManager.login(username, password);
+    }
+
+    private void flowOfTheSystemWithoutLogin() {
+        messages.showUnsuccessfullyLoginMessage();
+    }
+
+    private void flowOfTheSystemWithLogin() {
         while (true) {
             messages.showWelcomeMessage();
             messages.showOptions();
@@ -34,9 +53,6 @@ public class LibraryController {
                     return;
                 case 4:
                     customerActions.viewMovieList();
-                    return;
-                case 5:
-                    customerActions.login();
                     return;
                 default:
                     messages.showWarningMessage();

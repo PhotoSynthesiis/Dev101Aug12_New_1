@@ -58,28 +58,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="SystemFlow.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/SystemFlow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="37" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SystemFlowTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/SystemFlowTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="11" selection-start="2519" selection-end="2519" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CustomerManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/CustomerManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="27" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+            <state line="15" column="43" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Messages.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Messages.java">
+      <file leaf-file-name="CustomerManagerTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/CustomerManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="23" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LibraryController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/LibraryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="48" selection-start="497" selection-end="497" vertical-scroll-proportion="0.67695963">
+            <state line="30" column="53" selection-start="813" selection-end="813" vertical-scroll-proportion="1.0831354">
               <folding />
             </state>
           </provider>
@@ -95,22 +106,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/com/thoughtworks/MemberManager.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/Book.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/MemberManager.java" />
-        <option value="$PROJECT_DIR$/test/com/thoughtworks/MemberManagerTest.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/Messages.java" />
-        <option value="$PROJECT_DIR$/test/com/thoughtworks/ClientActionsTest.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/Customer.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/MovieManagerTest.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/LibraryControllerTest.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/BookManagerTest.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/CustomerManagerTest.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/ClientActions.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/LibraryController.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/CustomerActions.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/MovieManager.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/BookManager.java" />
-        <option value="$PROJECT_DIR$/test/com/thoughtworks/BookManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/Book.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/CustomerActions.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/CustomerManager.java" />
-        <option value="$PROJECT_DIR$/test/com/thoughtworks/MovieManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/LibraryController.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/SystemMainFlow.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/Main.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/Messages.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/SystemFlow.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/SystemFlowTest.java" />
       </list>
     </option>
   </component>
@@ -154,6 +165,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Dev101Aug12_New_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -231,52 +246,42 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="options.lastSelected" value="preferences.general" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.thoughtworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LibraryController">
-    <configuration default="false" name="LibraryController" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.LibraryController" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Dev101Aug12_New_1" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BookManagerTest.shouldReturnTheNumberOfBooksCorrectly" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.SystemFlowTest.shouldCallShowWarningMessageMethodGivenChoiceNotProvided">
+    <configuration default="false" name="CustomerManagerTest.shouldAddCustomerCorrectly" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Dev101Aug12_New_1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.BookManagerTest" />
-      <option name="METHOD_NAME" value="shouldReturnTheNumberOfBooksCorrectly" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.CustomerManagerTest" />
+      <option name="METHOD_NAME" value="shouldAddCustomerCorrectly" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -292,12 +297,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MovieManagerTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="MainTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Dev101Aug12_New_1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MovieManagerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MainTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -314,13 +319,29 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MovieManagerTest.shouldInitializeSuccessfully" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Dev101Aug12_New_1" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SystemFlowTest.shouldCallShowWarningMessageMethodGivenChoiceNotProvided" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Dev101Aug12_New_1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MovieManagerTest" />
-      <option name="METHOD_NAME" value="shouldInitializeSuccessfully" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.SystemFlowTest" />
+      <option name="METHOD_NAME" value="shouldCallShowWarningMessageMethodGivenChoiceNotProvided" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -336,12 +357,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="BookManagerTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="SystemFlowTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Dev101Aug12_New_1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.BookManagerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.SystemFlowTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -381,24 +402,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -424,6 +427,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -476,11 +497,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.LibraryController" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BookManagerTest.shouldReturnTheNumberOfBooksCorrectly" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MovieManagerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MovieManagerTest.shouldInitializeSuccessfully" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BookManagerTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerManagerTest.shouldAddCustomerCorrectly" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MainTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SystemFlowTest.shouldCallShowWarningMessageMethodGivenChoiceNotProvided" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SystemFlowTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -542,7 +563,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39880952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -619,81 +640,98 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="648" column="0" selection-start="26167" selection-end="26167" vertical-scroll-proportion="0.3315508" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mockito-all-1.9.5-rc1.jar!/org/mockito/internal/util/ObjectMethodsGuru.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mockito-all-1.9.5-rc1.jar!/org/mockito/internal/creation/MethodInterceptorFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.3315508" />
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="-6.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7396907" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.19138756" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="648" selection-end="1082" vertical-scroll-proportion="0.38679245" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="29" selection-start="5907" selection-end="8732" vertical-scroll-proportion="1.9938462" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="44" selection-start="446" selection-end="446" vertical-scroll-proportion="1.0075758" />
+        <state line="11" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="0.5444126" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/BookManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="37" selection-start="333" selection-end="333" vertical-scroll-proportion="0.49643704" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/BookManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="33" selection-start="1269" selection-end="1269" vertical-scroll-proportion="1.3539193" />
+        <state line="27" column="10" selection-start="734" selection-end="734" vertical-scroll-proportion="0.26012462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/MovieManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="90" selection-start="276" selection-end="276" vertical-scroll-proportion="-0.46568626" />
+        <state line="13" column="35" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/MovieManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/BookManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="15" selection-start="549" selection-end="549" vertical-scroll-proportion="0.8123515" />
+        <state line="54" column="35" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/CustomerManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="27" selection-start="596" selection-end="596" vertical-scroll-proportion="0.8123515" />
+        <state line="31" column="37" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/CustomerActions.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="27" selection-start="1766" selection-end="1766" vertical-scroll-proportion="2.3016627" />
+        <state line="4" column="24" selection-start="122" selection-end="122" vertical-scroll-proportion="0.18052256" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/CustomerManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Messages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="23" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.0">
+        <state line="15" column="43" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/LibraryController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="48" selection-start="497" selection-end="497" vertical-scroll-proportion="0.67695963">
+        <state line="6" column="36" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="10" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/SystemFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="37" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/CustomerActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="377" selection-end="377" vertical-scroll-proportion="-1.3467933">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/SystemFlowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="11" selection-start="2519" selection-end="2519" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/CustomerManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="53" selection-start="813" selection-end="813" vertical-scroll-proportion="1.0831354">
           <folding />
         </state>
       </provider>
@@ -774,6 +812,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Dev101Aug12_New_1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

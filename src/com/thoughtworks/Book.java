@@ -1,12 +1,5 @@
 package com.thoughtworks;
 
-/**
- * Created with IntelliJ IDEA.
- * User: twer
- * Date: 7/13/12
- * Time: 10:23 PM
- * To change this template use File | Settings | File Templates.
- */
 public class Book {
     private String bookName;
     private String author;
@@ -46,5 +39,4 @@ public class Book {
     public String toString() {
         return getBookName() + " ----- " + getAuthor();
     }
-
 }

@@ -32,7 +32,7 @@ public class CustomerManagerTest {
     @Test
     public void shouldAddCustomerCorrectly() {
         Customer customer = new Customer("111-1109", "123");
-        customerManager.addCustomer(customer);
+        customerManager.getCustomerList().add(customer);
         assertThat("add customer failed", customerManager.getCustomerList().contains(customer), is(true));
     }
 

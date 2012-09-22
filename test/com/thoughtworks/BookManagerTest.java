@@ -18,9 +18,9 @@ public class BookManagerTest {
 
     @Test
     public void shouldInitializeSuccessfully() {
-        Map<Book, Integer> EachKindOfbookWithItsNumber = bookManager.getAllBooks();
+        Map<Book, Integer> EachKindOfBookWithItsNumber = bookManager.getAllBooksMapper();
         int numberOfBooks = 0;
-        for (Map.Entry<Book, Integer> entry : EachKindOfbookWithItsNumber.entrySet()) {
+        for (Map.Entry<Book, Integer> entry : EachKindOfBookWithItsNumber.entrySet()) {
             numberOfBooks += entry.getValue();
         }
         assertThat("number of books is incorrect", numberOfBooks, is(13));
@@ -42,7 +42,7 @@ public class BookManagerTest {
     public void shouldAddBookSuccessfully() {
         Book book = new Book("Spring in Action", "Bob");
         bookManager.addBooks(book);
-        boolean isAdded = bookManager.getAllBooks().containsKey(book);
+        boolean isAdded = bookManager.getAllBooksMapper().containsKey(book);
         assertThat("add book failed", isAdded, is(true));
     }
 }
